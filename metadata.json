@@ -1,0 +1,5 @@
+{
+  "name": "MangaDex Lite Reader",
+  "description": "A lightweight, responsive manga reader interface designed to consume a custom Google Apps Script MangaDex proxy API. Features include a manga library, search functionality, and an immersive chapter viewer.",
+  "requestFramePermissions": []
+}
