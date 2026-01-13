@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+  font-family: 'Inter', sans-serif; 
+}
+/* General scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b; 
+}
+::-webkit-scrollbar-thumb {
+  background: #475569; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b; 
+}
+/* Custom scrollbar for the main content area */
+.custom-scrollbar-main::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar-main::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar-main::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+.custom-scrollbar-main::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

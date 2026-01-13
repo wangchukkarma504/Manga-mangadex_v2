@@ -43,7 +43,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, onHome, onFavorites, o
         {/* Center Section: Search Bar (Flexible) */}
         <form 
           onSubmit={handleSubmit} 
-          className="flex-1 w-full flex items-center pt-4"
+          className="flex-1 w-full flex items-center"
         >
           <div className="relative w-full">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
